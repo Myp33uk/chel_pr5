@@ -25,5 +25,10 @@ namespace chel_pr5
             Density = density;
             return this;
         }
+        public Liquid SetParams(int volume)
+        {
+            Volume = volume;
+            return this;
+        }
     }
 }
